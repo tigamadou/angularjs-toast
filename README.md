@@ -83,7 +83,7 @@ all options are type sensitive
 
 | Property      | Type                  | Default       | Description                              |
 | ------------- | --------------------- | ------------- | ---------------------------------------- |
-| className         | string                | alert-success | this applies / overrides the CSS for toast elements |
+| className         | string                | alert-success | accepted values are alert-(success|danger|primary|info) |
 | duration      | number                | 5000          | timeout for each toast messages to disappear |
 | position      | string                | right         | position of the element can be 'left', 'center' and 'right' |
 | container     | string                | body          | appends alert to the specific class or id or element. inputs should be like '.class' or '#id' |
